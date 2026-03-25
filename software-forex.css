@@ -29,3 +29,15 @@ body {
     transform: scale(1.05);
 
 } 
+a {
+    background-color: darkgray;
+    transition: 0.3s;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 20px;
+
+}
+a:hover {
+    background-image: url(../../Downloads/andrey-k-ZHFFqYZTeFg-unsplash.jpg);
+    background-position: center;
+}
