@@ -1,0 +1,31 @@
+body {
+    background-image: url(../../Downloads/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg);
+    background-position: center;
+    color: antiquewhite;
+    font-size: x-large;
+} 
+.contsiner {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+@media (max-width: 760px) { 
+    .container {
+        flex-direction: column;
+    }
+} 
+.box {
+    padding: 20px;
+    border: 10px solid black;
+    box-shadow: 0 4px 4px orange;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgba(52, 82, 82, 0.397)
+
+
+}
+.box:hover {
+    background-color: rgba(119, 41, 41, 0.548);
+    transform: scale(1.05);
+
+} 
