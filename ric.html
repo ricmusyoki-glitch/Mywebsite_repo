@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document for Ric</title>
+    <link rel="stylesheet" href="ric.css">
+</head>
+<body>
+    <h1>Welcome to the Document for Ric</h1>
+    <label for="radius">Enter the radius of the circle:</label>
+    <input type="text" id="radius" placeholder="Enter the radius of the circle">
+    <button id="submit-button">Calculate Circumference</button>
+    <h2 id="circumference-result"></h2>
+    <br><br><br><br>
+    <span id="counter">0</span>
+    <div>
+    <button id="increamentbutton" class="buttons">Increament</button>
+    <button id="decreamentbutton" class="buttons">Decreament</button>
+    <button id="resetbutton" class="buttons">Reset</button>
+    </div>
+    <label for="rollresult" id="rollbutton-label">Roll the dice:</label>
+    <button id="rollbutton" class="buttons">Roll</button>
+    <h2 id="rollresult"></h2>
+    <label for="age">Enter your age</label>
+    <Input  type="text" id="mytext"></Input>
+    <button id="mysubmitbutton">submit button</button>
+    <p id="myresults"></p> <br><hr>
+
+
+    <input type="checkbox" id="mycheckbox">
+    <label for="checkbox">Subscribe</label> <br><br>
+    <input type="radio" id="myvisa" name="card" class="cards">
+    <label for="radio">Visa</label>
+    <input type="radio" id="mypaypal" name="card" class="cards">
+    <label for="radio">paypal</label>
+    <input type="radio" id="mymastercard" name="card" class="cards">
+    <label for="radio">mastercard</label>
+    <br><br>
+    <button id="submittbutton">Submit</button>
+    <p id="subresult"></p>
+    <p id="paymentresult"></p>
+    <hr><hr><hr>
+
+
+
+    <form>
+        <h1 id="temperatureconversion">Temperature conversion</h1>
+    <input type="number" id="temperatureinput" placeholder="Enter your Temperature" value="0">
+    <label for="temperature" id=""> Insert your Temperature</label>
+    <br>
+    <input type="radio" id="celciustofahrenheit" name="converter">
+    <label for="radioinput">Celsius to Fahrenheit</label>
+    <br>
+    <input type="radio" id="fahrenheittocelcius" name="converter">
+    <label for="radioinput">Fahrenheit to Celcius</label>
+    <br><br>
+    <button  type ="button" id="submitbutton">Submit Button</button>
+    <p id="results">Select a unit</p> 
+    
+</form>
+<hr>
+ <hr>
+ <div id="container">
+    <h2>Dice Roller</h2>
+    <label for="input"># of dice</label>
+    <input type="number" min="1" value="" id="diceinput">
+<button id="dicebutton" >Roll dice</button>
+<div id="diceresults"></div>
+<div id="diceimages"></div>
+
+ </div>
+    <script src="ric.js"></script>
+</body>
+</html>
